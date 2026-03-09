@@ -42,9 +42,6 @@ const About = () => {
           <h1 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground">
             {t("aboutPage.title")}
           </h1>
-          <p className="mt-4 text-lg text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed">
-            {t("aboutPage.subtitle")}
-          </p>
         </div>
       </section>
 
