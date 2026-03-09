@@ -250,6 +250,26 @@ const translations: Record<Language, Record<string, string>> = {
     "impact.mentors": "Mentors",
     "impact.events": "Événements",
     "impact.partners": "Partenaires",
+
+    // About Page
+    "aboutPage.tag": "À Propos de FE Hub Geneva",
+    "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
+    "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes migrantes et nouvellement arrivées à Genève vers le secteur technologique.",
+    "aboutPage.overview.title": "Aperçu",
+    "aboutPage.overview.text": "FE Tech Geneva est un hub de transition de carrière numérique conçu pour accompagner les femmes migrantes et nouvellement arrivées à Genève qui souhaitent intégrer le secteur technologique. L'initiative combine une évaluation des compétences par IA avec un parcours d'apprentissage structuré de 3 mois pour aider les participantes à développer des compétences numériques pratiques et se préparer à des postes d'entrée dans l'écosystème tech suisse.",
+    "aboutPage.problem.title": "Problématique",
+    "aboutPage.problem.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes migrantes et réfugiées qualifiées font face à des obstacles pour intégrer le marché du travail technologique. Ces obstacles incluent des réseaux professionnels locaux limités, un manque d'expérience reconnue en Suisse, et un accès insuffisant à une formation numérique pratique alignée sur le marché de l'emploi. À Genève, ville hautement internationale, de nombreuses femmes possèdent une éducation et une expérience professionnelle précieuses mais peinent à se reconvertir dans les carrières numériques.",
+    "aboutPage.solution.title": "Notre Solution",
+    "aboutPage.solution.text": "FE Tech Geneva offre un parcours accessible et guidé pour que les femmes développent leurs compétences numériques et leur confiance à travers :",
+    "aboutPage.solution.point1": "Une plateforme d'intégration alimentée par l'IA qui analyse les compétences, le parcours et les intérêts des participantes",
+    "aboutPage.solution.point2": "Un parcours de carrière numérique structuré de 3 mois",
+    "aboutPage.solution.point3": "Des spécialisations incluant Développement Web & App, Analyse de Données, IA & Compétences Numériques",
+    "aboutPage.solution.point4": "Mentorat, apprentissage entre pairs et opportunités de networking",
+    "aboutPage.solution.point5": "Préparation de carrière alignée sur les pratiques de recrutement suisses",
+    "aboutPage.solution.closing": "Cette approche permet aux participantes de suivre un parcours d'apprentissage personnalisé qui correspond à leurs forces et objectifs de carrière.",
+    "aboutPage.target.title": "Participantes Cibles",
+    "aboutPage.target.text": "Le programme soutient principalement les femmes migrantes, réfugiées et nouvellement arrivées vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
+    "aboutPage.target.cta": "Vérifier l'Éligibilité & Postuler",
   },
 };
 
