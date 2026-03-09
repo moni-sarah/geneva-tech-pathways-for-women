@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { key: "nav.about", href: "#about" },
+    { key: "nav.about", href: "/about", isRoute: true },
     { key: "nav.program", href: "#program" },
     { key: "nav.benefits", href: "#benefits" },
     { key: "nav.eligibility", href: "#eligibility" },
