@@ -119,6 +119,26 @@ const translations: Record<Language, Record<string, string>> = {
     "impact.mentors": "Mentors",
     "impact.events": "Events",
     "impact.partners": "Partners",
+
+    // About Page
+    "aboutPage.tag": "About FE Hub Geneva",
+    "aboutPage.title": "Empowering Women Into Tech Careers",
+    "aboutPage.subtitle": "A digital career transition hub supporting migrant and newcomer women in Geneva to enter the technology sector.",
+    "aboutPage.overview.title": "Overview",
+    "aboutPage.overview.text": "FE Tech Geneva is a digital career transition hub designed to support migrant and newcomer women in Geneva who want to enter the technology sector. The initiative combines AI-powered skill assessment with a structured 3-month learning pathway to help participants build practical digital skills and prepare for entry-level roles in the Swiss tech ecosystem.",
+    "aboutPage.problem.title": "Problem Statement",
+    "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified migrant and refugee women face barriers to entering the technology workforce. These barriers include limited local professional networks, lack of Swiss-recognized experience, and insufficient access to practical digital training aligned with the job market. In Geneva, a highly international city, many women possess valuable education and work experience but struggle to transition into digital careers.",
+    "aboutPage.solution.title": "Our Solution",
+    "aboutPage.solution.text": "FE Tech Geneva provides an accessible and guided pathway for women to build digital skills and confidence through:",
+    "aboutPage.solution.point1": "An AI-powered onboarding platform that analyzes participants' skills, background, and interests",
+    "aboutPage.solution.point2": "A structured 3-month digital career pathway",
+    "aboutPage.solution.point3": "Specialization tracks including Web & App Development, Data Analysis, AI & Digital Skills",
+    "aboutPage.solution.point4": "Mentorship, peer learning, and networking opportunities",
+    "aboutPage.solution.point5": "Career preparation aligned with Swiss hiring practices",
+    "aboutPage.solution.closing": "This approach allows participants to follow a personalized learning journey that matches their strengths and career goals.",
+    "aboutPage.target.title": "Target Participants",
+    "aboutPage.target.text": "The program primarily supports migrant, refugee, and newcomer women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
+    "aboutPage.target.cta": "Check Eligibility & Apply",
   },
   fr: {
     // Nav
@@ -230,6 +250,26 @@ const translations: Record<Language, Record<string, string>> = {
     "impact.mentors": "Mentors",
     "impact.events": "Événements",
     "impact.partners": "Partenaires",
+
+    // About Page
+    "aboutPage.tag": "À Propos de FE Hub Geneva",
+    "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
+    "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes migrantes et nouvellement arrivées à Genève vers le secteur technologique.",
+    "aboutPage.overview.title": "Aperçu",
+    "aboutPage.overview.text": "FE Tech Geneva est un hub de transition de carrière numérique conçu pour accompagner les femmes migrantes et nouvellement arrivées à Genève qui souhaitent intégrer le secteur technologique. L'initiative combine une évaluation des compétences par IA avec un parcours d'apprentissage structuré de 3 mois pour aider les participantes à développer des compétences numériques pratiques et se préparer à des postes d'entrée dans l'écosystème tech suisse.",
+    "aboutPage.problem.title": "Problématique",
+    "aboutPage.problem.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes migrantes et réfugiées qualifiées font face à des obstacles pour intégrer le marché du travail technologique. Ces obstacles incluent des réseaux professionnels locaux limités, un manque d'expérience reconnue en Suisse, et un accès insuffisant à une formation numérique pratique alignée sur le marché de l'emploi. À Genève, ville hautement internationale, de nombreuses femmes possèdent une éducation et une expérience professionnelle précieuses mais peinent à se reconvertir dans les carrières numériques.",
+    "aboutPage.solution.title": "Notre Solution",
+    "aboutPage.solution.text": "FE Tech Geneva offre un parcours accessible et guidé pour que les femmes développent leurs compétences numériques et leur confiance à travers :",
+    "aboutPage.solution.point1": "Une plateforme d'intégration alimentée par l'IA qui analyse les compétences, le parcours et les intérêts des participantes",
+    "aboutPage.solution.point2": "Un parcours de carrière numérique structuré de 3 mois",
+    "aboutPage.solution.point3": "Des spécialisations incluant Développement Web & App, Analyse de Données, IA & Compétences Numériques",
+    "aboutPage.solution.point4": "Mentorat, apprentissage entre pairs et opportunités de networking",
+    "aboutPage.solution.point5": "Préparation de carrière alignée sur les pratiques de recrutement suisses",
+    "aboutPage.solution.closing": "Cette approche permet aux participantes de suivre un parcours d'apprentissage personnalisé qui correspond à leurs forces et objectifs de carrière.",
+    "aboutPage.target.title": "Participantes Cibles",
+    "aboutPage.target.text": "Le programme soutient principalement les femmes migrantes, réfugiées et nouvellement arrivées vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
+    "aboutPage.target.cta": "Vérifier l'Éligibilité & Postuler",
   },
 };
 
