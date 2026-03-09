@@ -79,16 +79,27 @@ const Navbar = () => {
       {/* Mobile Nav */}
       {isOpen && (
         <div className="lg:hidden bg-background border-b border-border px-4 py-4 space-y-3 animate-fade-in">
-          {navLinks.map((link) => (
-            <a
-              key={link.key}
-              href={link.href}
-              onClick={() => setIsOpen(false)}
-              className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-            >
-              {t(link.key)}
-            </a>
-          ))}
+          {navLinks.map((link) =>
+            link.isRoute ? (
+              <Link
+                key={link.key}
+                to={link.href}
+                onClick={() => setIsOpen(false)}
+                className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              >
+                {t(link.key)}
+              </Link>
+            ) : (
+              <a
+                key={link.key}
+                href={link.href}
+                onClick={() => setIsOpen(false)}
+                className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              >
+                {t(link.key)}
+              </a>
+            )
+          )}
           <Button variant="hero" size="sm" className="w-full">
             {t("nav.apply")}
           </Button>
