@@ -34,17 +34,20 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="relative animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="rounded-2xl overflow-hidden shadow-warm">
+          <div className="relative animate-fade-in group" style={{ animationDelay: "0.2s" }}>
+            <div className="rounded-2xl overflow-hidden shadow-warm transform transition-all duration-700 ease-out group-hover:scale-[1.03] group-hover:shadow-2xl">
               <img
                 src={heroImage}
                 alt="Women collaborating in tech"
-                className="w-full h-auto object-cover"
+                className="w-full h-[400px] md:h-[500px] lg:h-[560px] object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
               />
+              {/* Animated overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
             </div>
-            {/* Decorative elements */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full bg-secondary/20 blur-2xl" />
-            <div className="absolute -bottom-4 -left-4 w-32 h-32 rounded-full bg-primary/10 blur-2xl" />
+            {/* Floating decorative elements with continuous animation */}
+            <div className="absolute -top-6 -right-6 w-28 h-28 rounded-full bg-secondary/25 blur-2xl animate-[pulse_4s_ease-in-out_infinite]" />
+            <div className="absolute -bottom-6 -left-6 w-36 h-36 rounded-full bg-primary/15 blur-2xl animate-[pulse_5s_ease-in-out_infinite_1s]" />
+            <div className="absolute top-1/2 -right-3 w-16 h-16 rounded-full bg-accent/20 blur-xl animate-[bounce_6s_ease-in-out_infinite_0.5s]" />
           </div>
         </div>
       </div>
