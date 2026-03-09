@@ -119,6 +119,26 @@ const translations: Record<Language, Record<string, string>> = {
     "impact.mentors": "Mentors",
     "impact.events": "Events",
     "impact.partners": "Partners",
+
+    // About Page
+    "aboutPage.tag": "About FE Hub Geneva",
+    "aboutPage.title": "Empowering Women Into Tech Careers",
+    "aboutPage.subtitle": "A digital career transition hub supporting migrant and newcomer women in Geneva to enter the technology sector.",
+    "aboutPage.overview.title": "Overview",
+    "aboutPage.overview.text": "FE Tech Geneva is a digital career transition hub designed to support migrant and newcomer women in Geneva who want to enter the technology sector. The initiative combines AI-powered skill assessment with a structured 3-month learning pathway to help participants build practical digital skills and prepare for entry-level roles in the Swiss tech ecosystem.",
+    "aboutPage.problem.title": "Problem Statement",
+    "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified migrant and refugee women face barriers to entering the technology workforce. These barriers include limited local professional networks, lack of Swiss-recognized experience, and insufficient access to practical digital training aligned with the job market. In Geneva, a highly international city, many women possess valuable education and work experience but struggle to transition into digital careers.",
+    "aboutPage.solution.title": "Our Solution",
+    "aboutPage.solution.text": "FE Tech Geneva provides an accessible and guided pathway for women to build digital skills and confidence through:",
+    "aboutPage.solution.point1": "An AI-powered onboarding platform that analyzes participants' skills, background, and interests",
+    "aboutPage.solution.point2": "A structured 3-month digital career pathway",
+    "aboutPage.solution.point3": "Specialization tracks including Web & App Development, Data Analysis, AI & Digital Skills",
+    "aboutPage.solution.point4": "Mentorship, peer learning, and networking opportunities",
+    "aboutPage.solution.point5": "Career preparation aligned with Swiss hiring practices",
+    "aboutPage.solution.closing": "This approach allows participants to follow a personalized learning journey that matches their strengths and career goals.",
+    "aboutPage.target.title": "Target Participants",
+    "aboutPage.target.text": "The program primarily supports migrant, refugee, and newcomer women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
+    "aboutPage.target.cta": "Check Eligibility & Apply",
   },
   fr: {
     // Nav
