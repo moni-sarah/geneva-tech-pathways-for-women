@@ -25,9 +25,11 @@ const HeroSection = () => {
               {t("hero.subtitle")}
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg">
-                {t("hero.cta1")}
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button variant="hero" size="lg" asChild>
+                <Link to="/apply">
+                  {t("hero.cta1")}
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
               <Button variant="hero-outline" size="lg">
                 {t("hero.cta2")}
