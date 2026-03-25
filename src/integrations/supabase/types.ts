@@ -59,6 +59,63 @@ export type Database = {
         }
         Relationships: []
       }
+      program_applications: {
+        Row: {
+          canton: string | null
+          created_at: string
+          date_of_birth: string | null
+          digital_access: boolean | null
+          education_level: string | null
+          email: string
+          full_name: string
+          id: string
+          languages_spoken: string[] | null
+          motivation: string | null
+          nationality: string | null
+          phone: string | null
+          previous_experience: string | null
+          residence_status: string | null
+          status: string
+          tech_interest: string | null
+        }
+        Insert: {
+          canton?: string | null
+          created_at?: string
+          date_of_birth?: string | null
+          digital_access?: boolean | null
+          education_level?: string | null
+          email: string
+          full_name: string
+          id?: string
+          languages_spoken?: string[] | null
+          motivation?: string | null
+          nationality?: string | null
+          phone?: string | null
+          previous_experience?: string | null
+          residence_status?: string | null
+          status?: string
+          tech_interest?: string | null
+        }
+        Update: {
+          canton?: string | null
+          created_at?: string
+          date_of_birth?: string | null
+          digital_access?: boolean | null
+          education_level?: string | null
+          email?: string
+          full_name?: string
+          id?: string
+          languages_spoken?: string[] | null
+          motivation?: string | null
+          nationality?: string | null
+          phone?: string | null
+          previous_experience?: string | null
+          residence_status?: string | null
+          status?: string
+          tech_interest?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
