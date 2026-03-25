@@ -34,9 +34,11 @@ const PartnersSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="hero-outline" size="lg">
-            {t("partners.cta")}
-            <ArrowRight className="ml-2 h-4 w-4" />
+          <Button variant="hero-outline" size="lg" asChild>
+            <Link to="/become-partner">
+              {t("partners.cta")}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </Button>
         </div>
       </div>
