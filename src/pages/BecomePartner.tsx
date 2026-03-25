@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
@@ -26,21 +27,45 @@ const BecomePartner = () => {
     );
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
+
+    try {
+      const { error } = await supabase.from("partner_submissions").insert({
+        org_name: (formData.get("orgName") as string).trim(),
+        website: (formData.get("website") as string)?.trim() || null,
+        org_type: orgType,
+        contact_name: (formData.get("contactName") as string).trim(),
+        contact_role: (formData.get("contactRole") as string)?.trim() || null,
+        email: (formData.get("email") as string).trim(),
+        phone: (formData.get("phone") as string)?.trim() || null,
+        partnership_types: partnershipTypes,
+        message: (formData.get("message") as string)?.trim() || null,
+      });
+
+      if (error) throw error;
+
       toast({
         title: t("partner.form.success"),
         description: t("partner.form.successDesc"),
       });
-      (e.target as HTMLFormElement).reset();
+      form.reset();
       setOrgType("");
       setPartnershipTypes([]);
-    }, 1500);
+    } catch (err) {
+      console.error("Submission error:", err);
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const partnershipOptions = [
