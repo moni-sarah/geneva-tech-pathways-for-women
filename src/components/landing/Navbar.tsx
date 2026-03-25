@@ -100,8 +100,8 @@ const Navbar = () => {
               </a>
             )
           )}
-          <Button variant="hero" size="sm" className="w-full">
-            {t("nav.apply")}
+          <Button variant="hero" size="sm" className="w-full" asChild>
+            <Link to="/apply">{t("nav.apply")}</Link>
           </Button>
         </div>
       )}
