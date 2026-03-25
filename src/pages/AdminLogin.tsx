@@ -46,7 +46,7 @@ const AdminLogin = () => {
   const icon = mode === "forgot" ? <Mail className="h-6 w-6 text-primary" /> : <Lock className="h-6 w-6 text-primary" />;
   const title = mode === "forgot" ? "Reset Password" : "Admin Login";
   const subtitle = mode === "forgot" ? "Enter your email to receive a reset link" : "Sign in to access the admin dashboard";
-  const buttonLabel = mode === "signup" ? (loading ? "Creating account..." : "Create Account") : mode === "forgot" ? (loading ? "Sending..." : "Send Reset Link") : (loading ? "Signing in..." : "Sign In");
+  const buttonLabel = mode === "forgot" ? (loading ? "Sending..." : "Send Reset Link") : (loading ? "Signing in..." : "Sign In");
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center px-4">
