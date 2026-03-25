@@ -11,6 +11,7 @@ import BecomePartner from "./pages/BecomePartner.tsx";
 import ApplyNow from "./pages/ApplyNow.tsx";
 import AdminLogin from "./pages/AdminLogin.tsx";
 import AdminDashboard from "./pages/AdminDashboard.tsx";
+import ResetPassword from "./pages/ResetPassword.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
