@@ -76,18 +76,8 @@ const AdminLogin = () => {
           </form>
           <div className="mt-4 text-center space-y-1">
             {mode === "login" && (
-              <>
-                <button type="button" onClick={() => setMode("forgot")} className="block w-full text-sm text-muted-foreground hover:text-primary hover:underline">
-                  Forgot your password?
-                </button>
-                <button type="button" onClick={() => setMode("signup")} className="block w-full text-sm text-primary hover:underline">
-                  Need an account? Sign up
-                </button>
-              </>
-            )}
-            {mode === "signup" && (
-              <button type="button" onClick={() => setMode("login")} className="text-sm text-primary hover:underline">
-                Already have an account? Sign in
+              <button type="button" onClick={() => setMode("forgot")} className="block w-full text-sm text-muted-foreground hover:text-primary hover:underline">
+                Forgot your password?
               </button>
             )}
             {mode === "forgot" && (
