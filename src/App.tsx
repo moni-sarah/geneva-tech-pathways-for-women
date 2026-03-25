@@ -8,6 +8,9 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import Index from "./pages/Index.tsx";
 import About from "./pages/About.tsx";
 import BecomePartner from "./pages/BecomePartner.tsx";
+import ApplyNow from "./pages/ApplyNow.tsx";
+import AdminLogin from "./pages/AdminLogin.tsx";
+import AdminDashboard from "./pages/AdminDashboard.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -24,6 +27,9 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
               <Route path="/become-partner" element={<BecomePartner />} />
+              <Route path="/apply" element={<ApplyNow />} />
+              <Route path="/admin/login" element={<AdminLogin />} />
+              <Route path="/admin" element={<AdminDashboard />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>

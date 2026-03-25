@@ -66,8 +66,8 @@ const Navbar = () => {
             {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
 
-          <Button variant="hero" size="sm" className="hidden sm:inline-flex">
-            {t("nav.apply")}
+          <Button variant="hero" size="sm" className="hidden sm:inline-flex" asChild>
+            <Link to="/apply">{t("nav.apply")}</Link>
           </Button>
 
           <Button variant="ghost" size="icon" className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -100,8 +100,8 @@ const Navbar = () => {
               </a>
             )
           )}
-          <Button variant="hero" size="sm" className="w-full">
-            {t("nav.apply")}
+          <Button variant="hero" size="sm" className="w-full" asChild>
+            <Link to="/apply">{t("nav.apply")}</Link>
           </Button>
         </div>
       )}
