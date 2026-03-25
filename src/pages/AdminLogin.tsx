@@ -43,9 +43,9 @@ const AdminLogin = () => {
     setLoading(false);
   };
 
-  const icon = mode === "signup" ? <UserPlus className="h-6 w-6 text-primary" /> : mode === "forgot" ? <Mail className="h-6 w-6 text-primary" /> : <Lock className="h-6 w-6 text-primary" />;
-  const title = mode === "signup" ? "Create Admin Account" : mode === "forgot" ? "Reset Password" : "Admin Login";
-  const subtitle = mode === "signup" ? "Sign up to create your admin account" : mode === "forgot" ? "Enter your email to receive a reset link" : "Sign in to access the admin dashboard";
+  const icon = mode === "forgot" ? <Mail className="h-6 w-6 text-primary" /> : <Lock className="h-6 w-6 text-primary" />;
+  const title = mode === "forgot" ? "Reset Password" : "Admin Login";
+  const subtitle = mode === "forgot" ? "Enter your email to receive a reset link" : "Sign in to access the admin dashboard";
   const buttonLabel = mode === "signup" ? (loading ? "Creating account..." : "Create Account") : mode === "forgot" ? (loading ? "Sending..." : "Send Reset Link") : (loading ? "Signing in..." : "Sign In");
 
   return (
