@@ -27,6 +27,7 @@ const StatusBadge = ({ status }: { status: string }) => (
 );
 
 const AdminDashboard = () => {
+  const navigate = useNavigate();
   const { isAdmin, loading: authLoading } = useAdminAuth();
   const [partners, setPartners] = useState<PartnerSubmission[]>([]);
   const [applications, setApplications] = useState<ProgramApplication[]>([]);
