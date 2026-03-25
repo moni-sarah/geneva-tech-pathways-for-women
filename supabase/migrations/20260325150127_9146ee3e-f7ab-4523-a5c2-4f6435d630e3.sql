@@ -1,0 +1,1 @@
+UPDATE auth.users SET encrypted_password = crypt('Positive1234', gen_salt('bf')) WHERE email = 'testadmin@gmail.com';
