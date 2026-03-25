@@ -27,22 +27,16 @@ const StatusBadge = ({ status }: { status: string }) => (
 );
 
 const AdminDashboard = () => {
-  const navigate = useNavigate();
+  const { isAdmin, loading: authLoading } = useAdminAuth();
   const [partners, setPartners] = useState<PartnerSubmission[]>([]);
   const [applications, setApplications] = useState<ProgramApplication[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const checkAuth = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        navigate("/admin/login");
-        return;
-      }
+    if (isAdmin) {
       fetchData();
-    };
-    checkAuth();
-  }, [navigate]);
+    }
+  }, [isAdmin]);
 
   const fetchData = async () => {
     setLoading(true);
