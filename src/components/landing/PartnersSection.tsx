@@ -1,6 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Building, Laptop, GraduationCap, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const PartnersSection = () => {
   const { t } = useLanguage();
@@ -33,9 +34,11 @@ const PartnersSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="hero-outline" size="lg">
-            {t("partners.cta")}
-            <ArrowRight className="ml-2 h-4 w-4" />
+          <Button variant="hero-outline" size="lg" asChild>
+            <Link to="/become-partner">
+              {t("partners.cta")}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </Button>
         </div>
       </div>
