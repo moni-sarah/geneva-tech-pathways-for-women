@@ -1,6 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Building, Laptop, GraduationCap, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const PartnersSection = () => {
   const { t } = useLanguage();
