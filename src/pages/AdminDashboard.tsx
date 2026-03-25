@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
+import { useAdminAuth } from "@/hooks/useAdminAuth";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -27,21 +28,16 @@ const StatusBadge = ({ status }: { status: string }) => (
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
+  const { isAdmin, loading: authLoading } = useAdminAuth();
   const [partners, setPartners] = useState<PartnerSubmission[]>([]);
   const [applications, setApplications] = useState<ProgramApplication[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const checkAuth = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        navigate("/admin/login");
-        return;
-      }
+    if (isAdmin) {
       fetchData();
-    };
-    checkAuth();
-  }, [navigate]);
+    }
+  }, [isAdmin]);
 
   const fetchData = async () => {
     setLoading(true);
@@ -69,7 +65,7 @@ const AdminDashboard = () => {
     navigate("/admin/login");
   };
 
-  if (loading) {
+  if (authLoading || loading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="h-8 w-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin" />
