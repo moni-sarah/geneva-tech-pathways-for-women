@@ -32,14 +32,6 @@ const AdminLogin = () => {
         toast({ title: "Email sent", description: "Check your inbox for the password reset link." });
         setMode("login");
       }
-    } else if (mode === "signup") {
-      const { error } = await supabase.auth.signUp({ email, password });
-      if (error) {
-        toast({ title: "Signup failed", description: error.message, variant: "destructive" });
-      } else {
-        toast({ title: "Account created", description: "Check your email to confirm your account, then sign in." });
-        setMode("login");
-      }
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) {
