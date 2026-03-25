@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lock, UserPlus, Mail } from "lucide-react";
+import { Lock, Mail } from "lucide-react";
 
 type Mode = "login" | "signup" | "forgot";
 
@@ -32,14 +32,6 @@ const AdminLogin = () => {
         toast({ title: "Email sent", description: "Check your inbox for the password reset link." });
         setMode("login");
       }
-    } else if (mode === "signup") {
-      const { error } = await supabase.auth.signUp({ email, password });
-      if (error) {
-        toast({ title: "Signup failed", description: error.message, variant: "destructive" });
-      } else {
-        toast({ title: "Account created", description: "Check your email to confirm your account, then sign in." });
-        setMode("login");
-      }
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) {
@@ -51,10 +43,10 @@ const AdminLogin = () => {
     setLoading(false);
   };
 
-  const icon = mode === "signup" ? <UserPlus className="h-6 w-6 text-primary" /> : mode === "forgot" ? <Mail className="h-6 w-6 text-primary" /> : <Lock className="h-6 w-6 text-primary" />;
-  const title = mode === "signup" ? "Create Admin Account" : mode === "forgot" ? "Reset Password" : "Admin Login";
-  const subtitle = mode === "signup" ? "Sign up to create your admin account" : mode === "forgot" ? "Enter your email to receive a reset link" : "Sign in to access the admin dashboard";
-  const buttonLabel = mode === "signup" ? (loading ? "Creating account..." : "Create Account") : mode === "forgot" ? (loading ? "Sending..." : "Send Reset Link") : (loading ? "Signing in..." : "Sign In");
+  const icon = mode === "forgot" ? <Mail className="h-6 w-6 text-primary" /> : <Lock className="h-6 w-6 text-primary" />;
+  const title = mode === "forgot" ? "Reset Password" : "Admin Login";
+  const subtitle = mode === "forgot" ? "Enter your email to receive a reset link" : "Sign in to access the admin dashboard";
+  const buttonLabel = mode === "forgot" ? (loading ? "Sending..." : "Send Reset Link") : (loading ? "Signing in..." : "Sign In");
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center px-4">
@@ -84,18 +76,8 @@ const AdminLogin = () => {
           </form>
           <div className="mt-4 text-center space-y-1">
             {mode === "login" && (
-              <>
-                <button type="button" onClick={() => setMode("forgot")} className="block w-full text-sm text-muted-foreground hover:text-primary hover:underline">
-                  Forgot your password?
-                </button>
-                <button type="button" onClick={() => setMode("signup")} className="block w-full text-sm text-primary hover:underline">
-                  Need an account? Sign up
-                </button>
-              </>
-            )}
-            {mode === "signup" && (
-              <button type="button" onClick={() => setMode("login")} className="text-sm text-primary hover:underline">
-                Already have an account? Sign in
+              <button type="button" onClick={() => setMode("forgot")} className="block w-full text-sm text-muted-foreground hover:text-primary hover:underline">
+                Forgot your password?
               </button>
             )}
             {mode === "forgot" && (
