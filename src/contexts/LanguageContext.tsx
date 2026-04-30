@@ -212,7 +212,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.solution.point5": "Career preparation aligned with Swiss hiring practices",
     "aboutPage.solution.closing": "This approach allows participants to follow a personalized learning journey that matches their strengths and career goals.",
     "aboutPage.target.title": "Target Participants",
-    "aboutPage.target.text": "The program primarily supports migrant, refugee, and newcomer women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
+    "aboutPage.target.text": "The program supports women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
     "aboutPage.target.cta": "Check Eligibility & Apply",
   },
   fr: {
