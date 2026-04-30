@@ -71,7 +71,7 @@ const translations: Record<Language, Record<string, string>> = {
     "eligibility.subtitle": "Our program is designed for women who meet the following criteria:",
     "eligibility.1": "Live in the Canton of Geneva",
     "eligibility.2": "Identify as a woman",
-    "eligibility.3": "Be a migrant, refugee, or newcomer to Switzerland",
+    "eligibility.3": "Be passionate about transitioning into a tech career",
     "eligibility.4": "Have basic digital access (laptop & internet)",
     "eligibility.5": "Be motivated to pursue a career in tech",
     "eligibility.cta": "Check Your Eligibility & Apply",
