@@ -227,7 +227,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.title": "Carrières Tech du Futur pour les Femmes",
-    "hero.subtitle": "Accompagner les femmes migrantes, réfugiées et nouvellement arrivées à Genève vers des carrières durables dans le secteur tech suisse.",
+    "hero.subtitle": "Accompagner les femmes à Genève vers des carrières durables dans le secteur tech suisse.",
     "hero.cta1": "Postuler Maintenant",
     "hero.cta2": "En Savoir Plus",
 
