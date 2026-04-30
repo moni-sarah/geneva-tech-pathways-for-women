@@ -108,7 +108,7 @@ const translations: Record<Language, Record<string, string>> = {
     "partner.back": "Back to Partners",
     "partner.tag": "Partnership",
     "partner.title": "Become a Partner",
-    "partner.subtitle": "Join us in empowering migrant and newcomer women in Geneva to build sustainable tech careers. Whether you're a company, NGO, or local association, your support makes a difference.",
+    "partner.subtitle": "Join us in empowering women in Geneva to build sustainable tech careers. Whether you're a company, NGO, or local association, your support makes a difference.",
     "partner.form.orgInfo": "Organization Information",
     "partner.form.orgName": "Organization Name",
     "partner.form.orgNamePlaceholder": "Your organization name",
