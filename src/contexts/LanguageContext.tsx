@@ -314,7 +314,7 @@ const translations: Record<Language, Record<string, string>> = {
     "partner.back": "Retour aux Partenaires",
     "partner.tag": "Partenariat",
     "partner.title": "Devenir Partenaire",
-    "partner.subtitle": "Rejoignez-nous pour accompagner les femmes migrantes et nouvellement arrivées à Genève vers des carrières tech durables. Que vous soyez une entreprise, ONG ou association locale, votre soutien fait la différence.",
+    "partner.subtitle": "Rejoignez-nous pour accompagner les femmes à Genève vers des carrières tech durables. Que vous soyez une entreprise, ONG ou association locale, votre soutien fait la différence.",
     "partner.form.orgInfo": "Informations sur l'Organisation",
     "partner.form.orgName": "Nom de l'Organisation",
     "partner.form.orgNamePlaceholder": "Nom de votre organisation",
