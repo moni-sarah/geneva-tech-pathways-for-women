@@ -277,7 +277,7 @@ const translations: Record<Language, Record<string, string>> = {
     "eligibility.subtitle": "Notre programme s'adresse aux femmes qui répondent aux critères suivants :",
     "eligibility.1": "Résider dans le Canton de Genève",
     "eligibility.2": "S'identifier comme femme",
-    "eligibility.3": "Être migrante, réfugiée ou nouvellement arrivée en Suisse",
+    "eligibility.3": "Être motivée à se reconvertir dans une carrière tech",
     "eligibility.4": "Avoir un accès numérique de base (ordinateur & internet)",
     "eligibility.5": "Être motivée pour poursuivre une carrière dans la tech",
     "eligibility.cta": "Vérifier Votre Éligibilité & Postuler",
