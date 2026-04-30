@@ -21,14 +21,14 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.title": "Future Enabled Tech Careers for Women",
-    "hero.subtitle": "Empowering women in Geneva to build sustainable careers in Switzerland's growing tech sector.",
+    "hero.subtitle": "A career-transition and digital upskilling initiative supporting women in Geneva to enter Switzerland's growing tech sector — practicing and developing concrete skills to become independent in the digital world.",
     "hero.cta1": "Apply Now",
     "hero.cta2": "Learn More",
 
     // About
     "about.tag": "About the Program",
     "about.title": "Enabling Sustainable Career Futures",
-    "about.description": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector.",
+    "about.description": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector — practicing and developing concrete skills so they can become independent in the digital world.",
     "about.mission.title": "Our Mission",
     "about.mission.text": "Despite Switzerland's strong digital economy, many qualified women with international backgrounds face structural barriers to accessing IT careers. We address this gap through accessible digital training combined with employability preparation.",
     "about.who.title": "Who It's For",
@@ -200,7 +200,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.title": "Empowering Women Into Tech Careers",
     "aboutPage.subtitle": "A digital career transition hub supporting women in Geneva to enter the technology sector.",
     "aboutPage.overview.title": "Overview",
-    "aboutPage.overview.text": "Ellatech is a digital career transition hub designed to support women in Geneva who want to enter the technology sector. The initiative combines AI-powered skill assessment with a structured 3-month learning pathway to help participants build practical digital skills and prepare for entry-level roles in the Swiss tech ecosystem.",
+    "aboutPage.overview.text": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector. Through hands-on practice and the development of concrete skills, participants gain the confidence and independence they need to thrive in the digital world.",
     "aboutPage.problem.title": "Problem Statement",
     "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified women face barriers to entering the technology workforce. These barriers include limited professional networks, lack of recognized tech experience, and insufficient access to practical digital training aligned with the job market. In Geneva, many women possess valuable education and work experience but struggle to transition into digital careers.",
     "aboutPage.solution.title": "Our Solution",
@@ -227,14 +227,14 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.title": "Carrières Tech du Futur pour les Femmes",
-    "hero.subtitle": "Accompagner les femmes à Genève vers des carrières durables dans le secteur tech suisse.",
+    "hero.subtitle": "Une initiative de transition de carrière et de montée en compétences numériques pour accompagner les femmes à Genève vers le secteur tech suisse — en pratiquant et développant des compétences concrètes pour devenir autonomes dans le monde numérique.",
     "hero.cta1": "Postuler Maintenant",
     "hero.cta2": "En Savoir Plus",
 
     // About
     "about.tag": "À Propos du Programme",
     "about.title": "Des Carrières Durables pour l'Avenir",
-    "about.description": "Ellatech est une initiative de transition de carrière et de montée en compétences numériques conçue pour les femmes à Genève qui souhaitent intégrer le secteur tech suisse.",
+    "about.description": "Ellatech est une initiative de transition de carrière et de montée en compétences numériques conçue pour accompagner les femmes à Genève qui souhaitent intégrer le secteur tech suisse — en pratiquant et développant des compétences concrètes pour devenir autonomes dans le monde numérique.",
     "about.mission.title": "Notre Mission",
     "about.mission.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes qualifiées issues de l'immigration font face à des obstacles structurels. Nous comblons ce fossé par une formation numérique accessible combinée à une préparation à l'employabilité.",
     "about.who.title": "Pour Qui ?",
@@ -406,7 +406,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
     "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes à Genève vers le secteur technologique.",
     "aboutPage.overview.title": "Aperçu",
-    "aboutPage.overview.text": "Ellatech est un hub de transition de carrière numérique conçu pour accompagner les femmes à Genève qui souhaitent intégrer le secteur technologique. L'initiative combine une évaluation des compétences par IA avec un parcours d'apprentissage structuré de 3 mois pour aider les participantes à développer des compétences numériques pratiques et se préparer à des postes d'entrée dans l'écosystème tech suisse.",
+    "aboutPage.overview.text": "Ellatech est une initiative de transition de carrière et de montée en compétences numériques conçue pour accompagner les femmes à Genève qui souhaitent intégrer le secteur tech suisse en pleine croissance. Grâce à une pratique concrète et au développement de compétences tangibles, les participantes acquièrent la confiance et l'autonomie nécessaires pour s'épanouir dans le monde numérique.",
     "aboutPage.problem.title": "Problématique",
     "aboutPage.problem.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes qualifiées font face à des obstacles pour intégrer le marché du travail technologique. Ces obstacles incluent des réseaux professionnels limités, un manque d'expérience reconnue dans la tech, et un accès insuffisant à une formation numérique pratique alignée sur le marché de l'emploi. À Genève, de nombreuses femmes possèdent une éducation et une expérience professionnelle précieuses mais peinent à se reconvertir dans les carrières numériques.",
     "aboutPage.solution.title": "Notre Solution",
