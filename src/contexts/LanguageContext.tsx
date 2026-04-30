@@ -234,7 +234,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About
     "about.tag": "À Propos du Programme",
     "about.title": "Des Carrières Durables pour l'Avenir",
-    "about.description": "Ellatech est une initiative de transition de carrière et de montée en compétences numériques conçue pour les femmes migrantes, réfugiées et nouvellement arrivées à Genève qui souhaitent intégrer le secteur tech suisse.",
+    "about.description": "Ellatech est une initiative de transition de carrière et de montée en compétences numériques conçue pour les femmes à Genève qui souhaitent intégrer le secteur tech suisse.",
     "about.mission.title": "Notre Mission",
     "about.mission.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes qualifiées issues de l'immigration font face à des obstacles structurels. Nous comblons ce fossé par une formation numérique accessible combinée à une préparation à l'employabilité.",
     "about.who.title": "Pour Qui ?",
