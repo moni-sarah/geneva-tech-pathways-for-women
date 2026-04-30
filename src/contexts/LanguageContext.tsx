@@ -238,7 +238,7 @@ const translations: Record<Language, Record<string, string>> = {
     "about.mission.title": "Notre Mission",
     "about.mission.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes qualifiées issues de l'immigration font face à des obstacles structurels. Nous comblons ce fossé par une formation numérique accessible combinée à une préparation à l'employabilité.",
     "about.who.title": "Pour Qui ?",
-    "about.who.text": "Femmes migrantes, réfugiées et nouvellement arrivées vivant à Genève qui souhaitent se reconvertir dans la tech. Aucune expérience préalable requise — juste de la motivation et un accès numérique de base.",
+    "about.who.text": "Femmes vivant à Genève qui souhaitent se reconvertir dans la tech. Aucune expérience préalable requise — juste de la motivation et un accès numérique de base.",
     "about.gain.title": "Ce Que Vous Gagnerez",
     "about.gain.text": "Des compétences numériques adaptées au marché, un mentorat professionnel, un accompagnement carrière adapté aux standards suisses, et un accès à l'écosystème tech genevois.",
 
