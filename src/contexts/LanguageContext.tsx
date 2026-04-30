@@ -404,7 +404,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About Page
     "aboutPage.tag": "À Propos de Ellatech",
     "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
-    "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes migrantes et nouvellement arrivées à Genève vers le secteur technologique.",
+    "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes à Genève vers le secteur technologique.",
     "aboutPage.overview.title": "Aperçu",
     "aboutPage.overview.text": "FE Tech Geneva est un hub de transition de carrière numérique conçu pour accompagner les femmes migrantes et nouvellement arrivées à Genève qui souhaitent intégrer le secteur technologique. L'initiative combine une évaluation des compétences par IA avec un parcours d'apprentissage structuré de 3 mois pour aider les participantes à développer des compétences numériques pratiques et se préparer à des postes d'entrée dans l'écosystème tech suisse.",
     "aboutPage.problem.title": "Problématique",
