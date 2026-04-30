@@ -24,8 +24,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="FE Hub Geneva" className="h-10 w-10 rounded-full object-cover" />
-          <span className="font-heading font-bold text-lg text-primary hidden sm:inline">FE Hub Geneva</span>
+          <img src={logo} alt="Ellatech" className="h-10 w-10 rounded-full object-cover" />
+          <span className="font-heading font-bold text-lg text-primary hidden sm:inline">Ellatech</span>
         </Link>
 
         {/* Desktop Nav */}
