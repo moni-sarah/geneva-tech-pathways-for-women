@@ -198,7 +198,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About Page
     "aboutPage.tag": "About Ellatech",
     "aboutPage.title": "Empowering Women Into Tech Careers",
-    "aboutPage.subtitle": "A digital career transition hub supporting migrant and newcomer women in Geneva to enter the technology sector.",
+    "aboutPage.subtitle": "A digital career transition hub supporting women in Geneva to enter the technology sector.",
     "aboutPage.overview.title": "Overview",
     "aboutPage.overview.text": "FE Tech Geneva is a digital career transition hub designed to support migrant and newcomer women in Geneva who want to enter the technology sector. The initiative combines AI-powered skill assessment with a structured 3-month learning pathway to help participants build practical digital skills and prepare for entry-level roles in the Swiss tech ecosystem.",
     "aboutPage.problem.title": "Problem Statement",
