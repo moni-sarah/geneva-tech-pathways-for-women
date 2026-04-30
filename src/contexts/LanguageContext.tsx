@@ -32,7 +32,7 @@ const translations: Record<Language, Record<string, string>> = {
     "about.mission.title": "Our Mission",
     "about.mission.text": "Despite Switzerland's strong digital economy, many qualified women with international backgrounds face structural barriers to accessing IT careers. We address this gap through accessible digital training combined with employability preparation.",
     "about.who.title": "Who It's For",
-    "about.who.text": "Migrant, refugee, and newcomer women living in Geneva who want to transition into tech careers. No prior tech experience required — just motivation and basic digital access.",
+    "about.who.text": "Women living in Geneva who want to transition into tech careers. No prior tech experience required — just motivation and basic digital access.",
     "about.gain.title": "What You'll Gain",
     "about.gain.text": "Market-relevant digital skills, professional mentorship, career guidance tailored to Swiss hiring standards, and access to Geneva's thriving tech ecosystem.",
 
