@@ -418,7 +418,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.solution.point5": "Préparation de carrière alignée sur les pratiques de recrutement suisses",
     "aboutPage.solution.closing": "Cette approche permet aux participantes de suivre un parcours d'apprentissage personnalisé qui correspond à leurs forces et objectifs de carrière.",
     "aboutPage.target.title": "Participantes Cibles",
-    "aboutPage.target.text": "Le programme soutient principalement les femmes migrantes, réfugiées et nouvellement arrivées vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
+    "aboutPage.target.text": "Le programme soutient les femmes vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
     "aboutPage.target.cta": "Vérifier l'Éligibilité & Postuler",
   },
 };
