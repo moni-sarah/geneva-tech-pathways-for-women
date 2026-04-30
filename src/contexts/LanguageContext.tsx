@@ -28,7 +28,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About
     "about.tag": "About the Program",
     "about.title": "Enabling Sustainable Career Futures",
-    "about.description": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector.",
+    "about.description": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector — practicing and developing concrete skills so they can become independent in the digital world.",
     "about.mission.title": "Our Mission",
     "about.mission.text": "Despite Switzerland's strong digital economy, many qualified women with international backgrounds face structural barriers to accessing IT careers. We address this gap through accessible digital training combined with employability preparation.",
     "about.who.title": "Who It's For",
