@@ -200,7 +200,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.title": "Empowering Women Into Tech Careers",
     "aboutPage.subtitle": "A digital career transition hub supporting women in Geneva to enter the technology sector.",
     "aboutPage.overview.title": "Overview",
-    "aboutPage.overview.text": "Ellatech is a digital career transition hub designed to support women in Geneva who want to enter the technology sector. The initiative combines AI-powered skill assessment with a structured 3-month learning pathway to help participants build practical digital skills and prepare for entry-level roles in the Swiss tech ecosystem.",
+    "aboutPage.overview.text": "Ellatech is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector. Through hands-on practice and the development of concrete skills, participants gain the confidence and independence they need to thrive in the digital world.",
     "aboutPage.problem.title": "Problem Statement",
     "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified women face barriers to entering the technology workforce. These barriers include limited professional networks, lack of recognized tech experience, and insufficient access to practical digital training aligned with the job market. In Geneva, many women possess valuable education and work experience but struggle to transition into digital careers.",
     "aboutPage.solution.title": "Our Solution",
