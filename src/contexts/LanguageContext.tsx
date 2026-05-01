@@ -204,7 +204,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.problem.title": "Problem Statement",
     "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified women face barriers to entering the technology workforce. These barriers include limited professional networks, lack of recognized tech experience, and insufficient access to practical digital training aligned with the job market. In Geneva, many women possess valuable education and work experience but struggle to transition into digital careers.",
     "aboutPage.solution.title": "Our Solution",
-    "aboutPage.solution.text": "FE Tech Geneva provides an accessible and guided pathway for women to build digital skills and confidence through:",
+    "aboutPage.solution.text": "Ellatech provides an accessible and guided pathway for women to build digital skills and confidence through:",
     "aboutPage.solution.point1": "An AI-powered onboarding platform that analyzes participants' skills, background, and interests",
     "aboutPage.solution.point2": "A structured 3-month digital career pathway",
     "aboutPage.solution.point3": "Specialization tracks including Web & App Development, Data Analysis, AI & Digital Skills",
