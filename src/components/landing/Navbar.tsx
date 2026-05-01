@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useTheme } from "@/contexts/ThemeContext";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,8 @@ const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
   const { isDark, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const navLinks = [
     { key: "nav.about", href: "/about", isRoute: true },
@@ -19,6 +21,30 @@ const Navbar = () => {
     { key: "nav.timeline", href: "#timeline" },
     { key: "nav.partners", href: "#partners" },
   ];
+
+  // Scroll to hash target after navigating to home
+  useEffect(() => {
+    if (location.pathname === "/" && location.hash) {
+      const id = location.hash.replace("#", "");
+      // Wait a tick for the section to mount
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
+    }
+  }, [location]);
+
+  const handleHashClick = (e: React.MouseEvent, hash: string) => {
+    e.preventDefault();
+    setIsOpen(false);
+    if (location.pathname !== "/") {
+      navigate("/" + hash);
+    } else {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -43,6 +69,7 @@ const Navbar = () => {
               <a
                 key={link.key}
                 href={link.href}
+                onClick={(e) => handleHashClick(e, link.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {t(link.key)}
@@ -93,7 +120,7 @@ const Navbar = () => {
               <a
                 key={link.key}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => handleHashClick(e, link.href)}
                 className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {t(link.key)}
