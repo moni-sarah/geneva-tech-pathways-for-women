@@ -1,8 +1,20 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useHashScroll } from "@/hooks/useHashScroll";
 import logo from "@/assets/fe-hub-logo.png";
 
 const Footer = () => {
   const { t } = useLanguage();
+  const { scrollToHash } = useHashScroll();
+
+  const hashLink = (href: string, label: string) => (
+    <a
+      href={href}
+      onClick={(e) => scrollToHash(href, e)}
+      className="hover:text-primary transition-colors"
+    >
+      {label}
+    </a>
+  );
 
   return (
     <footer className="bg-card border-t border-border py-16">
@@ -21,18 +33,18 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-4">{t("footer.program")}</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#about" className="hover:text-primary transition-colors">{t("nav.about")}</a></li>
-              <li><a href="#program" className="hover:text-primary transition-colors">{t("nav.program")}</a></li>
-              <li><a href="#benefits" className="hover:text-primary transition-colors">{t("nav.benefits")}</a></li>
-              <li><a href="#eligibility" className="hover:text-primary transition-colors">{t("nav.eligibility")}</a></li>
+              <li>{hashLink("#about", t("nav.about"))}</li>
+              <li>{hashLink("#program", t("nav.program"))}</li>
+              <li>{hashLink("#benefits", t("nav.benefits"))}</li>
+              <li>{hashLink("#eligibility", t("nav.eligibility"))}</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-4">{t("footer.connect")}</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#timeline" className="hover:text-primary transition-colors">{t("nav.timeline")}</a></li>
-              <li><a href="#partners" className="hover:text-primary transition-colors">{t("nav.partners")}</a></li>
+              <li>{hashLink("#timeline", t("nav.timeline"))}</li>
+              <li>{hashLink("#partners", t("nav.partners"))}</li>
             </ul>
           </div>
 

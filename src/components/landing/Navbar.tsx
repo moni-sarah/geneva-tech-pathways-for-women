@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useHashScroll } from "@/hooks/useHashScroll";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu, X, Globe } from "lucide-react";
 import logo from "@/assets/fe-hub-logo.png";
@@ -10,8 +11,7 @@ const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
   const { isDark, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
-  const navigate = useNavigate();
+  const { scrollToHash } = useHashScroll();
 
   const navLinks = [
     { key: "nav.about", href: "/about", isRoute: true },
@@ -22,28 +22,9 @@ const Navbar = () => {
     { key: "nav.partners", href: "#partners" },
   ];
 
-  // Scroll to hash target after navigating to home
-  useEffect(() => {
-    if (location.pathname === "/" && location.hash) {
-      const id = location.hash.replace("#", "");
-      // Wait a tick for the section to mount
-      setTimeout(() => {
-        const el = document.getElementById(id);
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 50);
-    }
-  }, [location]);
-
   const handleHashClick = (e: React.MouseEvent, hash: string) => {
-    e.preventDefault();
     setIsOpen(false);
-    if (location.pathname !== "/") {
-      navigate("/" + hash);
-    } else {
-      const id = hash.replace("#", "");
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    scrollToHash(hash, e);
   };
 
   return (
