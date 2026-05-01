@@ -69,6 +69,7 @@ const Navbar = () => {
               <a
                 key={link.key}
                 href={link.href}
+                onClick={(e) => handleHashClick(e, link.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {t(link.key)}
@@ -119,7 +120,7 @@ const Navbar = () => {
               <a
                 key={link.key}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => handleHashClick(e, link.href)}
                 className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {t(link.key)}
