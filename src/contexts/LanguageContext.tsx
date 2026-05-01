@@ -410,7 +410,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.problem.title": "Problématique",
     "aboutPage.problem.text": "Malgré la forte économie numérique de la Suisse, de nombreuses femmes qualifiées font face à des obstacles pour intégrer le marché du travail technologique. Ces obstacles incluent des réseaux professionnels limités, un manque d'expérience reconnue dans la tech, et un accès insuffisant à une formation numérique pratique alignée sur le marché de l'emploi. À Genève, de nombreuses femmes possèdent une éducation et une expérience professionnelle précieuses mais peinent à se reconvertir dans les carrières numériques.",
     "aboutPage.solution.title": "Notre Solution",
-    "aboutPage.solution.text": "FE Tech Geneva offre un parcours accessible et guidé pour que les femmes développent leurs compétences numériques et leur confiance à travers :",
+    "aboutPage.solution.text": "Ellatech offre un parcours accessible et guidé pour que les femmes développent leurs compétences numériques et leur confiance à travers :",
     "aboutPage.solution.point1": "Une plateforme d'intégration alimentée par l'IA qui analyse les compétences, le parcours et les intérêts des participantes",
     "aboutPage.solution.point2": "Un parcours de carrière numérique structuré de 3 mois",
     "aboutPage.solution.point3": "Des spécialisations incluant Développement Web & App, Analyse de Données, IA & Compétences Numériques",
