@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
 import AboutSection from "@/components/landing/AboutSection";
@@ -12,6 +13,11 @@ import Footer from "@/components/landing/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Ellatech — Career Transition for Women in Tech in Geneva"
+        description="Geneva-based program empowering women to transition into tech through digital upskilling, mentorship, and hands-on training."
+        path="/"
+      />
       <Navbar />
       <HeroSection />
       <AboutSection />
