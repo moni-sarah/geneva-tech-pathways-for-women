@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -31,6 +32,11 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="About Ellatech — Our Mission for Women in Tech"
+        description="Discover Ellatech's mission to close the gender gap in tech through career transition, mentorship, and digital upskilling in Geneva."
+        path="/about"
+      />
       <Navbar />
 
       {/* Page Header */}

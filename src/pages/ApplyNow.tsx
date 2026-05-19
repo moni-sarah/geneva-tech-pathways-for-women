@@ -13,6 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Card, CardContent } from "@/components/ui/card";
 import { Send, ArrowLeft, Code, BarChart3, Bot, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const ApplyNow = () => {
   const { t } = useLanguage();
