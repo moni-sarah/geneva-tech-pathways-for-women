@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -9,6 +10,11 @@ const TermsOfService = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Terms of Service — Ellatech"
+        description="Terms governing use of the Ellatech website and participation in the Ellatech program."
+        path="/terms"
+      />
       <Navbar />
 
       <section className="pt-28 pb-16 gradient-hero">

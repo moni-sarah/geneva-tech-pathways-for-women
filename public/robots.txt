@@ -12,3 +12,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /admin/login
+Disallow: /reset-password
+
+Sitemap: https://ellatech-geneva.lovable.app/sitemap.xml

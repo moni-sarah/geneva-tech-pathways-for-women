@@ -13,6 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Card, CardContent } from "@/components/ui/card";
 import { Send, ArrowLeft, Code, BarChart3, Bot, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const ApplyNow = () => {
   const { t } = useLanguage();
@@ -71,6 +72,11 @@ const ApplyNow = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Apply Now — Ellatech Program for Women in Tech"
+        description="Apply to join Ellatech's Geneva-based program for women transitioning into tech: web development, data analysis, and AI tracks."
+        path="/apply"
+      />
       <Navbar />
 
       <main className="pt-24 pb-16">

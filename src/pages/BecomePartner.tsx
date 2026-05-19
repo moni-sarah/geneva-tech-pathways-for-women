@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
+import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { Button } from "@/components/ui/button";
@@ -77,6 +78,11 @@ const BecomePartner = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Become a Partner — Ellatech"
+        description="Partner with Ellatech to support women transitioning into tech careers in Geneva through training, mentorship, and hiring."
+        path="/become-partner"
+      />
       <Navbar />
 
       <main className="pt-24 pb-16">

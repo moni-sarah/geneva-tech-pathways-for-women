@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -9,6 +10,11 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Privacy Policy — Ellatech"
+        description="How Ellatech collects, uses, and protects personal data of applicants, partners, and visitors."
+        path="/privacy"
+      />
       <Navbar />
 
       <section className="pt-28 pb-16 gradient-hero">

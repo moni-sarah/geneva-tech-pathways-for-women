@@ -1,0 +1,14 @@
+# Ellatech
+
+> Geneva-based program empowering women to transition into tech through digital upskilling, mentorship, and hands-on training.
+
+Ellatech runs a career transition program for women in Geneva, Switzerland, focused on web development, data analysis, and AI/digital skills. The program combines training, mentorship, and partner placements.
+
+## Pages
+
+- [Home](/): Program overview, benefits, eligibility, timeline, and partners.
+- [About](/about): Mission, story, and team behind Ellatech.
+- [Apply](/apply): Application form for prospective candidates.
+- [Become a Partner](/become-partner): Partnership form for companies and organizations.
+- [Privacy Policy](/privacy): How Ellatech handles personal data.
+- [Terms of Service](/terms): Terms governing use of the Ellatech site and program.
