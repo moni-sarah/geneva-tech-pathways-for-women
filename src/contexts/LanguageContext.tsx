@@ -21,7 +21,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.title": "Empowering Women to Shape Their Digital Legacy",
-    "hero.subtitle": "Elle, A Geneva-based non-profit association dedicated to digital upskilling, technological independence, and AI literacy. We support women in building concrete skills to confidently navigate the digital world, enter Switzerland's growing tech sector, and create their own futures.",
+    "hero.subtitle": "Ella, A Geneva-based non-profit association dedicated to digital upskilling, technological independence, and AI literacy. We support women in building concrete skills to confidently navigate the digital world, enter Switzerland's growing tech sector, and create their own futures.",
     "hero.cta1": "Apply Now",
     "hero.cta2": "Learn More",
 
@@ -227,7 +227,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.title": "Autonomiser les Femmes pour Forger leur Héritage Numérique",
-    "hero.subtitle": "Elle, une association à but non lucratif basée à Genève dédiée au développement des compétences numériques, à l'indépendance technologique et à l'alphabétisation en IA. Nous accompagnons les femmes dans l'acquisition de compétences concrètes pour naviguer avec assurance dans le monde numérique, intégrer le secteur tech suisse en pleine croissance et créer leur propre avenir.",
+    "hero.subtitle": "Ella, une association à but non lucratif basée à Genève dédiée au développement des compétences numériques, à l'indépendance technologique et à l'alphabétisation en IA. Nous accompagnons les femmes dans l'acquisition de compétences concrètes pour naviguer avec assurance dans le monde numérique, intégrer le secteur tech suisse en pleine croissance et créer leur propre avenir.",
     "hero.cta1": "Postuler Maintenant",
     "hero.cta2": "En Savoir Plus",
 
