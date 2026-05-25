@@ -11,8 +11,8 @@ const TermsOfService = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Terms of Service — Ellatech"
-        description="Terms governing use of the Ellatech website and participation in the Ellatech program."
+        title="Terms of Service — Ella Association"
+        description="Terms governing use of the Ella Association website and participation in the Ella Association program."
         path="/terms"
       />
       <Navbar />
@@ -52,7 +52,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">1. Objet</h2>
                   <p className="text-muted-foreground">
-                    Les présentes conditions régissent l'utilisation de la plateforme Ellatech, qui propose un programme de transition de carrière et de montée en compétences numériques destiné aux femmes à Genève.
+                    Les présentes conditions régissent l'utilisation de la plateforme Ella Association, qui propose un programme de transition de carrière et de montée en compétences numériques destiné aux femmes à Genève.
                   </p>
                 </div>
 
@@ -66,7 +66,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">3. Éligibilité</h2>
                   <p className="text-muted-foreground">
-                    L'accès au programme est ouvert aux femmes majeures résidant à Genève répondant aux critères publiés sur la plateforme. Ellatech se réserve le droit de vérifier les informations fournies.
+                    L'accès au programme est ouvert aux femmes majeures résidant à Genève répondant aux critères publiés sur la plateforme. Ella Association se réserve le droit de vérifier les informations fournies.
                   </p>
                 </div>
 
@@ -83,21 +83,21 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">5. Propriété intellectuelle</h2>
                   <p className="text-muted-foreground">
-                    L'ensemble du contenu (textes, logos, graphiques, code, supports pédagogiques) est la propriété d'Ellatech ou de ses partenaires et est protégé par le droit suisse de la propriété intellectuelle. Toute reproduction sans autorisation est interdite.
+                    L'ensemble du contenu (textes, logos, graphiques, code, supports pédagogiques) est la propriété d'Ella Association ou de ses partenaires et est protégé par le droit suisse de la propriété intellectuelle. Toute reproduction sans autorisation est interdite.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">6. Gratuité du programme</h2>
                   <p className="text-muted-foreground">
-                    Le programme Ellatech est proposé gratuitement aux participantes sélectionnées. La sélection se fait selon les critères annoncés et sur décision du comité de sélection.
+                    Le programme Ella Association est proposé gratuitement aux participantes sélectionnées. La sélection se fait selon les critères annoncés et sur décision du comité de sélection.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">7. Responsabilité</h2>
                   <p className="text-muted-foreground">
-                    Ellatech s'engage à fournir ses services avec diligence mais ne garantit pas un résultat spécifique en matière d'emploi. Dans la limite autorisée par le droit suisse, notre responsabilité est limitée aux dommages directs causés par une faute grave ou intentionnelle.
+                    Ella Association s'engage à fournir ses services avec diligence mais ne garantit pas un résultat spécifique en matière d'emploi. Dans la limite autorisée par le droit suisse, notre responsabilité est limitée aux dommages directs causés par une faute grave ou intentionnelle.
                   </p>
                 </div>
 
@@ -118,7 +118,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">10. Modifications</h2>
                   <p className="text-muted-foreground">
-                    Ellatech peut modifier ces conditions à tout moment. La version en vigueur est celle publiée sur la plateforme. L'utilisation continue après modification vaut acceptation.
+                    Ella Association peut modifier ces conditions à tout moment. La version en vigueur est celle publiée sur la plateforme. L'utilisation continue après modification vaut acceptation.
                   </p>
                 </div>
 
@@ -141,7 +141,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">1. Purpose</h2>
                   <p className="text-muted-foreground">
-                    These terms govern the use of the Ellatech platform, which offers a career transition and digital upskilling program for women in Geneva.
+                    These terms govern the use of the Ella Association platform, which offers a career transition and digital upskilling program for women in Geneva.
                   </p>
                 </div>
 
@@ -155,7 +155,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">3. Eligibility</h2>
                   <p className="text-muted-foreground">
-                    The program is open to adult women residing in Geneva who meet the criteria published on the platform. Ellatech reserves the right to verify the information provided.
+                    The program is open to adult women residing in Geneva who meet the criteria published on the platform. Ella Association reserves the right to verify the information provided.
                   </p>
                 </div>
 
@@ -172,21 +172,21 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">5. Intellectual Property</h2>
                   <p className="text-muted-foreground">
-                    All content (texts, logos, graphics, code, training materials) is the property of Ellatech or its partners and is protected under Swiss intellectual property law. Any reproduction without authorization is prohibited.
+                    All content (texts, logos, graphics, code, training materials) is the property of Ella Association or its partners and is protected under Swiss intellectual property law. Any reproduction without authorization is prohibited.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">6. Free of Charge</h2>
                   <p className="text-muted-foreground">
-                    The Ellatech program is offered free of charge to selected participants. Selection is based on the criteria announced and decided by the selection committee.
+                    The Ella Association program is offered free of charge to selected participants. Selection is based on the criteria announced and decided by the selection committee.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">7. Liability</h2>
                   <p className="text-muted-foreground">
-                    Ellatech provides its services with due care but does not guarantee a specific employment outcome. To the extent permitted by Swiss law, our liability is limited to direct damages caused by gross negligence or intent.
+                    Ella Association provides its services with due care but does not guarantee a specific employment outcome. To the extent permitted by Swiss law, our liability is limited to direct damages caused by gross negligence or intent.
                   </p>
                 </div>
 
@@ -207,7 +207,7 @@ const TermsOfService = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">10. Changes</h2>
                   <p className="text-muted-foreground">
-                    Ellatech may modify these terms at any time. The version in force is the one published on the platform. Continued use after changes constitutes acceptance.
+                    Ella Association may modify these terms at any time. The version in force is the one published on the platform. Continued use after changes constitutes acceptance.
                   </p>
                 </div>
 

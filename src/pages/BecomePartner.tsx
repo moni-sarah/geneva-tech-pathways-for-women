@@ -79,8 +79,8 @@ const BecomePartner = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Become a Partner — Ellatech"
-        description="Partner with Ellatech to support women transitioning into tech careers in Geneva through training, mentorship, and hiring."
+        title="Become a Partner — Ella Association"
+        description="Partner with Ella Association to support women transitioning into tech careers in Geneva through training, mentorship, and hiring."
         path="/become-partner"
       />
       <Navbar />

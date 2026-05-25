@@ -73,8 +73,8 @@ const ApplyNow = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Apply Now — Ellatech Program for Women in Tech"
-        description="Apply to join Ellatech's Geneva-based program for women transitioning into tech: web development, data analysis, and AI tracks."
+        title="Apply Now — Ella Association Program for Women in Tech"
+        description="Apply to join Ella Association's Geneva-based program for women transitioning into tech: web development, data analysis, and AI tracks."
         path="/apply"
       />
       <Navbar />
