@@ -20,8 +20,8 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.apply": "Apply Now",
 
     // Hero
-    "hero.title": "Future Enabled Tech Careers for Women",
-    "hero.subtitle": "A career-transition and digital upskilling initiative supporting women in Geneva to enter Switzerland's growing tech sector — practicing and developing concrete skills to become independent in the digital world.",
+    "hero.title": "Empowering Women to Shape Their Digital Legacy",
+    "hero.subtitle": "Elle, A Geneva-based non-profit association dedicated to digital upskilling, technological independence, and AI literacy. We support women in building concrete skills to confidently navigate the digital world, enter Switzerland's growing tech sector, and create their own futures.",
     "hero.cta1": "Apply Now",
     "hero.cta2": "Learn More",
 
@@ -226,8 +226,8 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.apply": "Postuler",
 
     // Hero
-    "hero.title": "Carrières Tech du Futur pour les Femmes",
-    "hero.subtitle": "Une initiative de transition de carrière et de montée en compétences numériques pour accompagner les femmes à Genève vers le secteur tech suisse — en pratiquant et développant des compétences concrètes pour devenir autonomes dans le monde numérique.",
+    "hero.title": "Autonomiser les Femmes pour Forger leur Héritage Numérique",
+    "hero.subtitle": "Elle, une association à but non lucratif basée à Genève dédiée au développement des compétences numériques, à l'indépendance technologique et à l'alphabétisation en IA. Nous accompagnons les femmes dans l'acquisition de compétences concrètes pour naviguer avec assurance dans le monde numérique, intégrer le secteur tech suisse en pleine croissance et créer leur propre avenir.",
     "hero.cta1": "Postuler Maintenant",
     "hero.cta2": "En Savoir Plus",
 
