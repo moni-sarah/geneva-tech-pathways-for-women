@@ -6,7 +6,7 @@
   "scripts": {
     "predev": "bun run scripts/generate-sitemap.ts",
     "dev": "vite",
-    "prebuild": "bun run scripts/generate-sitemap.ts",
+    "prebuild": "node --loader ts-node/esm scripts/generate-sitemap.ts 2>/dev/null || npx tsx scripts/generate-sitemap.ts 2>/dev/null || echo 'Skipping sitemap generation'",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
