@@ -42,6 +42,10 @@ const HeroSection = () => {
               <img
                 src={heroImage}
                 alt="Women collaborating in tech"
+                width={1200}
+                height={800}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-[400px] md:h-[500px] lg:h-[560px] object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
               />
               {/* Animated overlay */}
