@@ -3,6 +3,7 @@ import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
 import AboutSection from "@/components/landing/AboutSection";
 import ProgramSection from "@/components/landing/ProgramSection";
+import OutcomesSection from "@/components/landing/OutcomesSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import EligibilitySection from "@/components/landing/EligibilitySection";
 import TimelineSection from "@/components/landing/TimelineSection";
@@ -22,6 +23,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <ProgramSection />
+      <OutcomesSection />
       <BenefitsSection />
       <EligibilitySection />
       <TimelineSection />
