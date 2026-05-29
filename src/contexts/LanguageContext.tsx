@@ -49,6 +49,24 @@ const translations: Record<Language, Record<string, string>> = {
     "program.month3.name": "Career Preparation",
     "program.month3.desc": "Polish your CV, build your portfolio, practice interviews, and connect with Swiss tech employers through our partner network.",
 
+    // Outcomes
+    "outcomes.tag": "What You Receive",
+    "outcomes.title": "What You Receive at Ella Association",
+    "outcomes.assessment.title": "AI Skills Assessment",
+    "outcomes.assessment.desc": "A personalized evaluation of your profile, skills, and professional goals to build a tailored pathway for your transition into tech.",
+    "outcomes.training.title": "12-Week Practical Training",
+    "outcomes.training.desc": "An intensive, community-based program focused on practice, including the completion of a concrete project to add to your CV. Training is free or heavily subsidized depending on your situation.",
+    "outcomes.mentorship.title": "Mentorship Circle",
+    "outcomes.mentorship.desc": "Guidance from women leaders and professionals in Geneva's tech sector, to advise, support, and share their experience with you.",
+    "outcomes.end.title": "What Awaits You at the End of the Program",
+    "outcomes.project.title": "Certified Concrete Project",
+    "outcomes.project.desc": "A real professional project to integrate directly into your CV and portfolio. Each participant completes a full project that mobilizes all the skills acquired during the training. This project is presented at a final Showcase in front of recruiters and partners from Geneva's tech sector — a unique opportunity to concretely demonstrate your value in the job market.",
+    "outcomes.skills.title": "Skills Developed in the Project:",
+    "outcomes.skills.ai": "AI Tools",
+    "outcomes.skills.webdev": "Web Design and Development",
+    "outcomes.skills.presentation": "Professional Presentation",
+    "outcomes.skills.portfolio": "Digital Portfolio Creation",
+
     // Benefits
     "benefits.tag": "What Participants Receive",
     "benefits.title": "Everything You Need to Succeed",
@@ -254,6 +272,24 @@ const translations: Record<Language, Record<string, string>> = {
     "program.month3.title": "Mois 3",
     "program.month3.name": "Préparation Carrière",
     "program.month3.desc": "Perfectionnez votre CV, construisez votre portfolio, préparez vos entretiens et connectez-vous avec les employeurs tech suisses.",
+
+    // Outcomes
+    "outcomes.tag": "Ce Que Vous Recevez",
+    "outcomes.title": "Ce que vous recevez au sein de l'association Ella",
+    "outcomes.assessment.title": "Bilan de compétences avec IA",
+    "outcomes.assessment.desc": "Une évaluation personnalisée de votre profil, de vos compétences et de vos objectifs professionnels afin de construire un parcours adapté à votre transition vers la tech.",
+    "outcomes.training.title": "Formation pratique de 12 semaines",
+    "outcomes.training.desc": "Un programme intensif et communautaire axé sur la pratique, incluant la réalisation d'un projet concret à intégrer dans votre CV. Formation gratuite ou fortement subventionnée selon votre situation.",
+    "outcomes.mentorship.title": "Cercle de mentorat",
+    "outcomes.mentorship.desc": "Un accompagnement par des femmes leaders et professionnelles du secteur tech à Genève, pour vous guider, vous soutenir et partager leur expérience.",
+    "outcomes.end.title": "Ce qui vous attend à la fin du programme",
+    "outcomes.project.title": "Projet concret certifié",
+    "outcomes.project.desc": "Un véritable projet professionnel à intégrer directement dans votre CV et votre portfolio. Chaque participante réalise un projet complet qui mobilise l'ensemble des compétences acquises pendant la formation. Ce projet est présenté lors d'un Showcase final devant des recruteurs et partenaires du secteur tech à Genève — une opportunité unique de démontrer concrètement votre valeur sur le marché du travail.",
+    "outcomes.skills.title": "Compétences développées dans le projet :",
+    "outcomes.skills.ai": "Outils d'intelligence artificielle",
+    "outcomes.skills.webdev": "Web design et Développement",
+    "outcomes.skills.presentation": "Présentation professionnelle",
+    "outcomes.skills.portfolio": "Création d'un portfolio numérique",
 
     // Benefits
     "benefits.tag": "Ce Que Vous Recevez",
