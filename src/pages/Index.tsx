@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Ella Association — Career Transition for Women in Tech in Geneva"
+        title="Association Ella — Career Transition for Women in Tech in Geneva"
         description="Geneva-based program empowering women to transition into tech through digital upskilling, mentorship, and hands-on training."
         path="/"
       />
