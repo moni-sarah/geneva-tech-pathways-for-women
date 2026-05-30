@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useHashScroll } from "@/hooks/useHashScroll";
+import { Phone } from "lucide-react";
 import logo from "@/assets/fe-hub-logo.png";
 
 const Footer = () => {
@@ -45,6 +46,12 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>{hashLink("#timeline", t("nav.timeline"))}</li>
               <li>{hashLink("#partners", t("nav.partners"))}</li>
+              <li>
+                <a href="tel:+41779883672" className="inline-flex items-center gap-1.5 hover:text-primary transition-colors">
+                  <Phone className="h-3.5 w-3.5" />
+                  +41 77 988 36 72
+                </a>
+              </li>
             </ul>
           </div>
 
