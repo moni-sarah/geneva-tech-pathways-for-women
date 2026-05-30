@@ -78,7 +78,7 @@ const AdminDashboard = () => {
       {/* Header */}
       <header className="border-b border-border bg-card">
         <div className="container mx-auto px-4 flex items-center justify-between h-16">
-          <h1 className="font-heading text-xl font-bold text-foreground">Ella Association Admin</h1>
+          <h1 className="font-heading text-xl font-bold text-foreground">Association Ella Admin</h1>
           <Button variant="ghost" size="sm" onClick={handleLogout}>
             <LogOut className="h-4 w-4 mr-2" />
             Sign Out

@@ -11,8 +11,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Privacy Policy — Ella Association"
-        description="How Ella Association collects, uses, and protects personal data of applicants, partners, and visitors."
+        title="Privacy Policy — Association Ella"
+        description="How Association Ella collects, uses, and protects personal data of applicants, partners, and visitors."
         path="/privacy"
       />
       <Navbar />
@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">1. Responsable du traitement</h2>
                   <p className="text-muted-foreground">
-                    Ella Association, basée à Genève (Suisse), est responsable du traitement des données personnelles collectées via cette plateforme. Pour toute question relative à la protection des données, vous pouvez nous contacter à : <a href="mailto:privacy@ellatech.ch" className="text-primary hover:underline">privacy@ellatech.ch</a>.
+                    Association Ella, basée à Genève (Suisse), est responsable du traitement des données personnelles collectées via cette plateforme. Pour toute question relative à la protection des données, vous pouvez nous contacter à : <a href="mailto:privacy@ellatech.ch" className="text-primary hover:underline">privacy@ellatech.ch</a>.
                   </p>
                 </div>
 
@@ -147,7 +147,7 @@ const PrivacyPolicy = () => {
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-3">1. Data Controller</h2>
                   <p className="text-muted-foreground">
-                    Ella Association, based in Geneva (Switzerland), is the controller of personal data collected through this platform. For any data protection inquiries, contact us at <a href="mailto:privacy@ellatech.ch" className="text-primary hover:underline">privacy@ellatech.ch</a>.
+                    Association Ella, based in Geneva (Switzerland), is the controller of personal data collected through this platform. For any data protection inquiries, contact us at <a href="mailto:privacy@ellatech.ch" className="text-primary hover:underline">privacy@ellatech.ch</a>.
                   </p>
                 </div>
 
