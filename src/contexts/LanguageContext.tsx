@@ -161,6 +161,7 @@ const translations: Record<Language, Record<string, string>> = {
     "partner.form.successDesc": "Thank you for your interest. We'll be in touch soon.",
 
     // Footer
+    "footer.phone": "Phone",
     "footer.tagline": "We don't only train. We enable sustainable career futures.",
     "footer.program": "Program",
     "footer.connect": "Connect",
@@ -385,6 +386,7 @@ const translations: Record<Language, Record<string, string>> = {
     "partner.form.successDesc": "Merci pour votre intérêt. Nous vous contacterons bientôt.",
 
     // Footer
+    "footer.phone": "Téléphone",
     "footer.tagline": "Nous ne formons pas seulement. Nous créons des avenirs professionnels durables.",
     "footer.program": "Programme",
     "footer.connect": "Contact",
