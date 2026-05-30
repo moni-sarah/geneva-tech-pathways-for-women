@@ -440,7 +440,7 @@ const translations: Record<Language, Record<string, string>> = {
     "impact.partners": "Partenaires",
 
     // About Page
-    "aboutPage.tag": "À Propos de Association Ella",
+    "aboutPage.tag": "À Propos d'Association Ella",
     "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
     "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes à Genève vers le secteur technologique.",
     "aboutPage.overview.title": "Aperçu",
