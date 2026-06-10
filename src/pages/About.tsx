@@ -13,6 +13,7 @@ const About = () => {
     t("aboutPage.solution.point3"),
     t("aboutPage.solution.point4"),
     t("aboutPage.solution.point5"),
+    t("aboutPage.solution.point6"),
   ];
 
   const sections = [
