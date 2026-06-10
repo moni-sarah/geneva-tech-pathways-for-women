@@ -31,8 +31,8 @@ const HeroSection = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button variant="hero-outline" size="lg">
-                {t("hero.cta2")}
+              <Button variant="hero-outline" size="lg" asChild>
+                <Link to="/about">{t("hero.cta2")}</Link>
               </Button>
             </div>
           </div>
