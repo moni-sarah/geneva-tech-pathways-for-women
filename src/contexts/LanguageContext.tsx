@@ -219,7 +219,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.title": "Building Digital Independence, Creating a Lasting Legacy",
     "aboutPage.subtitle": "A digital career transition hub supporting women in Geneva to enter the technology sector.",
     "aboutPage.overview.title": "Overview",
-    "aboutPage.overview.text": "Association Ella is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector. Through hands-on practice and the development of concrete skills, participants gain the confidence and independence they need to thrive in the digital world.",
+    "aboutPage.overview.text": "Association Ella is a digital empowerment and upskilling initiative designed to support women in Geneva in building the concrete digital skills they need — whether to access a job in the tech sector, strengthen their employability across any industry, or gain the independence to navigate today's digital world on their own terms. Through hands-on practice and personalized guidance, participants develop lasting confidence, autonomy, and the ability to shape their own path.",
     "aboutPage.problem.title": "Problem Statement",
     "aboutPage.problem.text": "Despite Switzerland's strong digital economy, many qualified women face barriers to entering the technology workforce. These barriers include limited professional networks, lack of recognized tech experience, and insufficient access to practical digital training aligned with the job market. In Geneva, many women possess valuable education and work experience but struggle to transition into digital careers.",
     "aboutPage.solution.title": "Our Solution",
