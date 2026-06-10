@@ -2,7 +2,7 @@ import SEO from "@/components/SEO";
 import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Target, AlertTriangle, Lightbulb, Users, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Target, AlertTriangle, Lightbulb, Users, ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
 
 const About = () => {
   const { t } = useLanguage();
