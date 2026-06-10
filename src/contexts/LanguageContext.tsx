@@ -231,7 +231,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.solution.point5": "Career preparation aligned with Swiss hiring practices",
     "aboutPage.solution.closing": "This approach allows participants to follow a personalized learning journey that matches their strengths and career goals.",
     "aboutPage.target.title": "Target Participants",
-    "aboutPage.target.text": "The program supports women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
+    "aboutPage.target.text": "The program supports women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks. This includes, but is not limited to: adult women living in poverty or at risk of poverty (African diaspora, newly-arrived women, single mothers, women in precarious professional retraining).",
     "aboutPage.target.cta": "Check Eligibility & Apply",
     "aboutPage.numerique.tag": "Ella Numérique",
     "aboutPage.numerique.title": "Ella Numérique — Co-built Digital Empowerment Pathway",
