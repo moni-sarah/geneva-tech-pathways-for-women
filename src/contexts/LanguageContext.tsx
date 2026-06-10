@@ -463,6 +463,11 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.target.title": "Participantes Cibles",
     "aboutPage.target.text": "Le programme soutient les femmes vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
     "aboutPage.target.cta": "Vérifier l'Éligibilité & Postuler",
+    "aboutPage.numerique.tag": "Ella Numérique",
+    "aboutPage.numerique.title": "Ella Numérique — Parcours co-construit d'autonomisation digitale",
+    "aboutPage.numerique.subtitle": "Parcours co-construit d'autonomisation digitale pour femmes en situation de précarité.",
+    "aboutPage.numerique.objectiveLabel": "Objectif",
+    "aboutPage.numerique.objective": "Réduire l'exclusion numérique des femmes en situation de précarité économique à Genève en co-concevant et en proposant un programme structuré de participation numérique.",
   },
 };
 
