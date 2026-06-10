@@ -134,6 +134,36 @@ const About = () => {
         </div>
       </section>
 
+      {/* Ella Numérique */}
+      <section className="py-20 gradient-section">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-card rounded-2xl p-8 md:p-10 shadow-card hover:shadow-warm transition-shadow duration-300">
+            <span className="text-sm font-medium text-secondary uppercase tracking-wider">
+              {t("aboutPage.numerique.tag")}
+            </span>
+            <div className="flex items-center gap-3 mt-3 mb-6">
+              <div className="w-14 h-14 rounded-xl gradient-hero flex items-center justify-center shrink-0">
+                <Sparkles className="h-7 w-7 text-primary-foreground" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
+                {t("aboutPage.numerique.title")}
+              </h2>
+            </div>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              {t("aboutPage.numerique.subtitle")}
+            </p>
+            <div className="border-l-4 border-secondary bg-secondary/5 rounded-r-lg p-5">
+              <p className="text-sm font-semibold text-secondary uppercase tracking-wider mb-2">
+                {t("aboutPage.numerique.objectiveLabel")}
+              </p>
+              <p className="text-foreground leading-relaxed">
+                {t("aboutPage.numerique.objective")}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
