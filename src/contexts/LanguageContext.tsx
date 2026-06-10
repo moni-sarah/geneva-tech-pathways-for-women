@@ -460,6 +460,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.solution.point3": "Des spécialisations incluant Développement Web & App, Analyse de Données, IA & Compétences Numériques",
     "aboutPage.solution.point4": "Mentorat, apprentissage entre pairs et opportunités de networking",
     "aboutPage.solution.point5": "Préparation de carrière alignée sur les pratiques de recrutement suisses",
+    "aboutPage.solution.point6": "Un plan d'apprentissage personnalisé adapté au rythme, aux objectifs et à l'expérience de chaque participante",
     "aboutPage.solution.closing": "Cette approche permet aux participantes de suivre un parcours d'apprentissage personnalisé qui correspond à leurs forces et objectifs de carrière.",
     "aboutPage.target.title": "Participantes Cibles",
     "aboutPage.target.text": "Le programme soutient les femmes vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels. Cela inclut, sans s'y limiter : les femmes adultes en situation de pauvreté ou menacées de l'être (diaspora africaine, femmes primo-arrivantes, mères isolées, femmes en reconversion professionnelle précaire).",
