@@ -461,7 +461,7 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.solution.point5": "Préparation de carrière alignée sur les pratiques de recrutement suisses",
     "aboutPage.solution.closing": "Cette approche permet aux participantes de suivre un parcours d'apprentissage personnalisé qui correspond à leurs forces et objectifs de carrière.",
     "aboutPage.target.title": "Participantes Cibles",
-    "aboutPage.target.text": "Le programme soutient les femmes vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels.",
+    "aboutPage.target.text": "Le programme soutient les femmes vivant à Genève qui souhaitent se reconvertir dans les carrières numériques mais n'ont pas accès à des parcours structurés ou des réseaux professionnels. Cela inclut, sans s'y limiter : les femmes adultes en situation de pauvreté ou menacées de l'être (diaspora africaine, femmes primo-arrivantes, mères isolées, femmes en reconversion professionnelle précaire).",
     "aboutPage.target.cta": "Vérifier l'Éligibilité & Postuler",
     "aboutPage.numerique.tag": "Ella Numérique",
     "aboutPage.numerique.title": "Ella Numérique — Parcours co-construit d'autonomisation digitale",
