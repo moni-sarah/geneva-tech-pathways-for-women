@@ -447,7 +447,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // About Page
     "aboutPage.tag": "À Propos d'Association Ella",
-    "aboutPage.title": "Autonomiser les Femmes vers des Carrières Tech",
+    "aboutPage.title": "Bâtir l'Indépendance Numérique, Créer un Héritage Durable",
     "aboutPage.subtitle": "Un hub de transition de carrière numérique accompagnant les femmes à Genève vers le secteur technologique.",
     "aboutPage.overview.title": "Aperçu",
     "aboutPage.overview.text": "Association Ella est une initiative de transition de carrière et de montée en compétences numériques conçue pour accompagner les femmes à Genève qui souhaitent intégrer le secteur tech suisse en pleine croissance. Grâce à une pratique concrète et au développement de compétences tangibles, les participantes acquièrent la confiance et l'autonomie nécessaires pour s'épanouir dans le monde numérique.",
