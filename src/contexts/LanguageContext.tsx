@@ -233,6 +233,11 @@ const translations: Record<Language, Record<string, string>> = {
     "aboutPage.target.title": "Target Participants",
     "aboutPage.target.text": "The program supports women living in Geneva who are interested in transitioning into digital careers but lack access to structured pathways or professional networks.",
     "aboutPage.target.cta": "Check Eligibility & Apply",
+    "aboutPage.numerique.tag": "Ella Numérique",
+    "aboutPage.numerique.title": "Ella Numérique — Co-built Digital Empowerment Pathway",
+    "aboutPage.numerique.subtitle": "A co-built digital empowerment pathway for women in situations of precarity.",
+    "aboutPage.numerique.objectiveLabel": "Objective",
+    "aboutPage.numerique.objective": "Reduce digital exclusion among economically precarious women in Geneva by co-designing and delivering a structured digital participation program.",
   },
   fr: {
     // Nav
