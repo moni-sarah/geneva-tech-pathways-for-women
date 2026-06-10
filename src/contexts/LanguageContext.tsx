@@ -216,7 +216,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // About Page
     "aboutPage.tag": "About Association Ella",
-    "aboutPage.title": "Empowering Women Into Tech Careers",
+    "aboutPage.title": "Building Digital Independence, Creating a Lasting Legacy",
     "aboutPage.subtitle": "A digital career transition hub supporting women in Geneva to enter the technology sector.",
     "aboutPage.overview.title": "Overview",
     "aboutPage.overview.text": "Association Ella is a career-transition and digital upskilling initiative designed to support women in Geneva who aim to enter Switzerland's growing tech sector. Through hands-on practice and the development of concrete skills, participants gain the confidence and independence they need to thrive in the digital world.",
