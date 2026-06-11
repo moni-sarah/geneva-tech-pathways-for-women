@@ -1,7 +1,8 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useHashScroll } from "@/hooks/useHashScroll";
 import { Phone } from "lucide-react";
-import logo from "@/assets/fe-hub-logo.png";
+import logoAsset from "@/assets/ella-logo.png.asset.json";
+const logo = logoAsset.url;
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -23,7 +24,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Association Ella" className="h-10 w-10 rounded-full object-cover" />
+              <img src={logo} alt="Association Ella" className="h-16 w-16 object-contain" />
               <span className="font-heading font-bold text-lg text-primary">Association Ella</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed italic">

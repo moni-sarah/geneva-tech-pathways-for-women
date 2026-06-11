@@ -5,7 +5,8 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { useHashScroll } from "@/hooks/useHashScroll";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu, X, Globe } from "lucide-react";
-import logo from "@/assets/fe-hub-logo.png";
+import logoAsset from "@/assets/ella-logo.png.asset.json";
+const logo = logoAsset.url;
 
 const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -31,7 +32,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Association Ella" className="h-10 w-10 rounded-full object-cover" />
+          <img src={logo} alt="Association Ella" className="h-20 w-20 md:h-24 md:w-24 object-contain" />
           <span className="font-heading font-bold text-lg text-primary hidden sm:inline">Association Ella</span>
         </Link>
 
