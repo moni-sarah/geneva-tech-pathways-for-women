@@ -5,8 +5,7 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { useHashScroll } from "@/hooks/useHashScroll";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu, X, Globe } from "lucide-react";
-import logoAsset from "@/assets/ella-logo.png.asset.json";
-const logo = logoAsset.url;
+import logo from "@/assets/ella-logo.png";
 
 const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();

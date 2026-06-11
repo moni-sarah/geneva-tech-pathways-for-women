@@ -1,8 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useHashScroll } from "@/hooks/useHashScroll";
 import { Phone } from "lucide-react";
-import logoAsset from "@/assets/ella-logo.png.asset.json";
-const logo = logoAsset.url;
+import logo from "@/assets/ella-logo.png";
 
 const Footer = () => {
   const { t } = useLanguage();
